@@ -21,6 +21,10 @@ Notes:	 Hand coded for Udemy.com
   margin-bottom: 20px;
 }
 
+#pfeatures img{
+  margin: 18px 18px 18px 18px;
+}
+
 /* --------------------------------------
    Typography
    -------------------------------------- */
@@ -76,9 +80,18 @@ Notes:	 Hand coded for Udemy.com
      font-style: italic;
    }
 
+   .s1:visited{
+     color: red;
+   }
+
    .f3{
      font-family: 'Bree Serif', serif;
      color: #FF008C;
+   }
+   .f4{
+     font-family: 'Bree Serif', serif;
+     color: #FF008C;
+     text-align: center;
    }
 
    .carousel-caption h4{
@@ -101,6 +114,10 @@ Notes:	 Hand coded for Udemy.com
    /* --------------------------------------
       Images of Portflio
       -------------------------------------- */
+      .port1{
+        text-align: center;
+        font-family: 'Bree Serif', serif;
+      }
 
       .portfolio{
         margin-top: 10px;
@@ -115,6 +132,11 @@ Notes:	 Hand coded for Udemy.com
         width: 300px;
         height: 300px;
 
+      }
+      .portfolio2{
+        margin-top: 15px;
+        border: 1px solid;
+        border-radius: 10px;
       }
       .portfolio11{
         margin-top: 90px;
@@ -137,9 +159,7 @@ Notes:	 Hand coded for Udemy.com
 }
 
 
-#pfeatures{
-  margin-top: 0px;
-}
+
 /* --------------------------------------
    Global Styles
    -------------------------------------- */
@@ -251,6 +271,10 @@ iframe{
     font-size: 1o px;
   }
 
+  .portfolio2 img{
+    align-items: center;
+  }
+
 }
 
 /* Landscape phone to portrait tablet */
@@ -268,6 +292,10 @@ iframe{
 
   #slide3 {
    background: url('../../images/carousel_small_03.jpg') top center no-repeat;
+  }
+
+  .portfolio2{
+    align-items: center;
   }
 
 }
@@ -289,4 +317,7 @@ iframe{
    background: url('../../images/carousel_large_03.jpg') top center no-repeat;
   }
 
+  .portfolio2 img{
+    align-items: center;
+  }
 }
